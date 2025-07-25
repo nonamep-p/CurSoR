@@ -621,4 +621,4 @@ async def sell(ctx, item_id: str):
     await ctx.send(f"✅ Sold {item['name']} for {gold_earned} gold. Gold now: {player['gold']}")
 
 if __name__ == "__main__":
-    bot.run('YOUR_BOT_TOKEN') 
+    bot.run(os.getenv("DISCORD_TOKEN")) 
