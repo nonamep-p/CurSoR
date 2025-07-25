@@ -1,78 +1,77 @@
-# Plagg Bot - Miraculous Ladybug Themed Discord RPG
+# 🧀 Plagg Bot - Interactive Discord RPG Experience
 
-Welcome to **Plagg Bot**, a Discord RPG bot inspired by Miraculous Ladybug, featuring Plagg's mischievous personality! Battle in PvP and PvE, explore dungeons, develop your skill tree, and collect items—all with persistent progression.
+> **"Plagg, claws out! Time to cause some chaos!"** 🐾
 
-## Features
-- **Miraculous Ladybug Theme**: Plagg as your sassy guide
-- **PvP & PvE Combat**: Fight other players or AI enemies
-- **Skill Trees**: Unlock and upgrade unique abilities
-- **Inventory System**: Collect, equip, and use items
-- **Progression**: Level up, gain new skills, and grow stronger
-- **Dungeons**: Team up or go solo in challenging dungeons
-- **Persistent Data**: All player and game data is stored in JSON files
-- **Discord Embed UI**: Rich, interactive commands and visuals
-- **Ready for Railway/Replit**: Easy deployment
+A comprehensive Discord RPG bot featuring **Plagg**, the Kwami of Destruction from Miraculous Ladybug. Experience next-generation tactical combat, character progression, and economy systems with a fully interactive UI and the most chaotic cheese-loving personality in Discord!
 
-## Setup
+## 🎮 Features Overview
 
-### Requirements
-- Python 3.11+
-- `discord.py` 2.3+
+- ⚔️ Revolutionary Combat System
+- 🎭 Advanced Character Classes & Miraculous Paths
+- 🛡️ Equipment, Items, Artifacts
+- 🏰 Dungeons & Monster Hunting
+- 🛒 Economy, Shop, Crafting, Trading
+- 🏆 PvP Arena, Factions, Gladiator Tokens
+- ✨ Achievements, Titles, Techniques
+- 📚 Tutorials, Info System, Guides
+- 🔧 Admin Controls, Analytics, Owner Powers
+- 👑 Owner Panel & Infinite Resources
+- 📱 Interactive UI: Dropdowns, Buttons, Embeds
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nonamep-p/CurSoR.git
-   cd CurSoR/Code/plagg_bot
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configure your bot token:
-   - Copy your Discord bot token into `config.py` as instructed below.
+## 🗂️ Modular Structure
 
-### Running the Bot
-```bash
-python main.py
 ```
-
-## File Structure
-```
-Code/plagg_bot/
-├── main.py
-├── config.py
-├── data/
+CurSoR/
+│
+├── main.py                # Bot entry point
+├── config.py              # Config/settings management
+├── requirements.txt
+├── README.md
+│
+├── data/                  # Data storage (JSON/db)
 │   ├── players.json
 │   ├── items.json
 │   ├── classes.json
-│   ├── skills.json
 │   ├── dungeons.json
-├── systems/
+│   └── ...
+│
+├── systems/               # Core systems (cogs)
 │   ├── combat.py
-│   ├── progression.py
+│   ├── character.py
 │   ├── inventory.py
-│   ├── skilltree.py
+│   ├── economy.py
 │   ├── dungeon.py
-│   ├── matchmaking.py
-│   ├── plagg_core.py
-├── ui/
-│   ├── visual.py
+│   ├── shop.py
+│   ├── pvp.py
+│   ├── admin.py
+│   ├── achievement.py
+│   ├── guild.py
+│   ├── tutorial.py
+│   └── ...
+│
+├── ui/                    # UI elements (embeds, views, buttons, dropdowns)
 │   ├── embeds.py
+│   ├── views.py
 │   ├── buttons.py
-│   ├── skilltree_render.py
-│   ├── inventory_render.py
-├── README.md
+│   ├── dropdowns.py
+│   └── ...
+│
+├── utils/                 # Utility functions/helpers
+│   └── helpers.py
+│
+└── database/              # DB integration (if needed)
+    └── db.py
 ```
 
-## Configuration
-Edit `config.py` and set your Discord bot token:
-```python
-TOKEN = "YOUR_DISCORD_BOT_TOKEN"
-```
+## 🚀 Extensibility
+- Add new cogs in `systems/` for each major feature.
+- Use `ui/` for all embeds, buttons, dropdowns, and views.
+- Store player/item/dungeon data in `data/` as JSON (or DB for scale).
+- Integrate AI/chatbot as a cog or utility module.
 
-## Contributing
-Pull requests and suggestions are welcome!
+## 🛠️ Next Steps
+- Refactor codebase to match this structure.
+- Implement advanced UI (embeds, buttons, dropdowns).
+- Build out each system as a cog for modularity and maintainability.
 
-## License
-MIT 
+See full command list and system details below! 
