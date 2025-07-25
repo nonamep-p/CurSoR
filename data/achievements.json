@@ -1,0 +1,14 @@
+{
+  "first_blood": {
+    "name": "First Blood",
+    "description": "Win your first battle."
+  },
+  "cheese_lover": {
+    "name": "Cheese Lover",
+    "description": "Eat 10 cheese."
+  },
+  "dungeon_crawler": {
+    "name": "Dungeon Crawler",
+    "description": "Complete your first dungeon."
+  }
+} 
