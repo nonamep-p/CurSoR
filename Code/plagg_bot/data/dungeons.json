@@ -1,0 +1,8 @@
+{
+  "sewers": {
+    "name": "Paris Sewers",
+    "description": "A maze beneath the city, home to rats and secrets.",
+    "enemies": ["rat", "mutant_rat"],
+    "rewards": ["cheese", "miraculous_ring"]
+  }
+} 

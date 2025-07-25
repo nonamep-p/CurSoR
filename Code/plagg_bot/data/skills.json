@@ -1,0 +1,16 @@
+{
+  "cataclysm": {
+    "name": "Cataclysm",
+    "description": "Unleash destructive energy. High damage, long cooldown.",
+    "class": "cat_noir",
+    "power": 40,
+    "cooldown": 5
+  },
+  "lucky_charm": {
+    "name": "Lucky Charm",
+    "description": "Summon a random helpful item.",
+    "class": "ladybug",
+    "power": 0,
+    "cooldown": 3
+  }
+} 

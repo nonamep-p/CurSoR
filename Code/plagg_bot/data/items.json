@@ -1,0 +1,14 @@
+{
+  "cheese": {
+    "name": "Cheese",
+    "description": "Plagg's favorite snack. Restores 10 HP.",
+    "type": "consumable",
+    "effect": {"hp": 10}
+  },
+  "miraculous_ring": {
+    "name": "Miraculous Ring",
+    "description": "A ring that grants special powers.",
+    "type": "equipment",
+    "effect": {"power": 5}
+  }
+} 
