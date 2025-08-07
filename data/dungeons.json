@@ -1,1 +1,154 @@
-{} 
+{
+  "forest": {
+    "name": "Mystic Forest",
+    "description": "A dense forest filled with magical creatures",
+    "floors": {
+      "1": {
+        "name": "Forest Entrance",
+        "description": "The edge of the mystical forest",
+        "monsters": ["wolf", "bandit", "goblin"],
+        "boss": null,
+        "min_level": 1,
+        "exp_reward": 50,
+        "gold_reward": 25,
+        "items": ["health_potion", "iron_ore", "cheese"]
+      },
+      "2": {
+        "name": "Ancient Grove",
+        "description": "An old grove with twisted trees",
+        "monsters": ["dark_wolf", "forest_troll", "poison_spider"],
+        "boss": null,
+        "min_level": 3,
+        "exp_reward": 75,
+        "gold_reward": 40,
+        "items": ["mana_potion", "magic_dust", "crystal_shard"]
+      },
+      "3": {
+        "name": "Enchanted Clearing",
+        "description": "A magical clearing where fairies dance",
+        "monsters": ["fairy", "dryad", "ent"],
+        "boss": "ancient_treant",
+        "min_level": 5,
+        "exp_reward": 100,
+        "gold_reward": 60,
+        "items": ["greater_heal", "ancient_scroll", "enchanted_cheese"]
+      }
+    },
+    "special_events": ["fairy_festival", "moonlight_hunt"],
+    "environmental_hazards": ["poison_mushrooms", "treant_ambush"]
+  },
+  "cave": {
+    "name": "Crystal Caverns",
+    "description": "A network of caves filled with precious crystals",
+    "floors": {
+      "1": {
+        "name": "Cave Entrance",
+        "description": "The dark entrance to the crystal caves",
+        "monsters": ["bat", "cave_rat", "goblin_miner"],
+        "boss": null,
+        "min_level": 2,
+        "exp_reward": 60,
+        "gold_reward": 30,
+        "items": ["health_potion", "iron_ore", "crystal_shard"]
+      },
+      "2": {
+        "name": "Crystal Chamber",
+        "description": "A chamber filled with glowing crystals",
+        "monsters": ["crystal_golem", "cave_troll", "dark_bat"],
+        "boss": null,
+        "min_level": 4,
+        "exp_reward": 85,
+        "gold_reward": 50,
+        "items": ["mana_potion", "gold_ore", "magic_dust"]
+      },
+      "3": {
+        "name": "Deep Cavern",
+        "description": "The deepest part of the crystal caves",
+        "monsters": ["crystal_dragon", "shadow_stalker", "ancient_golem"],
+        "boss": "crystal_dragon_lord",
+        "min_level": 6,
+        "exp_reward": 120,
+        "gold_reward": 80,
+        "items": ["elixir_of_life", "dragon_essence", "legendary_blade"]
+      }
+    },
+    "special_events": ["crystal_resonance", "dragon_awakening"],
+    "environmental_hazards": ["falling_crystals", "darkness"]
+  },
+  "castle": {
+    "name": "Haunted Castle",
+    "description": "An abandoned castle filled with undead",
+    "floors": {
+      "1": {
+        "name": "Castle Courtyard",
+        "description": "The outer courtyard of the haunted castle",
+        "monsters": ["skeleton", "ghost", "zombie"],
+        "boss": null,
+        "min_level": 8,
+        "exp_reward": 150,
+        "gold_reward": 100,
+        "items": ["greater_heal", "ancient_scroll", "shadow_cloak"]
+      },
+      "2": {
+        "name": "Castle Halls",
+        "description": "The grand halls of the castle",
+        "monsters": ["skeleton_knight", "wraith", "vampire_spawn"],
+        "boss": null,
+        "min_level": 10,
+        "exp_reward": 200,
+        "gold_reward": 150,
+        "items": ["elixir_of_life", "diamond_ring", "wisdom_amulet"]
+      },
+      "3": {
+        "name": "Throne Room",
+        "description": "The castle's throne room",
+        "monsters": ["death_knight", "shadow_lord", "ancient_vampire"],
+        "boss": "undead_king",
+        "min_level": 12,
+        "exp_reward": 300,
+        "gold_reward": 250,
+        "items": ["miraculous_ring", "phoenix_feather", "dragon_scale"]
+      }
+    },
+    "special_events": ["ghostly_banquet", "vampire_hunt"],
+    "environmental_hazards": ["cursed_rooms", "soul_drain"]
+  },
+  "abyss": {
+    "name": "Abyssal Depths",
+    "description": "The deepest depths where ancient evils dwell",
+    "floors": {
+      "1": {
+        "name": "Abyss Entrance",
+        "description": "The gateway to the abyss",
+        "monsters": ["abyss_walker", "void_spawn", "shadow_beast"],
+        "boss": null,
+        "min_level": 15,
+        "exp_reward": 400,
+        "gold_reward": 300,
+        "items": ["elixir_of_life", "dragon_essence", "ancient_scroll"]
+      },
+      "2": {
+        "name": "Void Chamber",
+        "description": "A chamber where reality bends",
+        "monsters": ["void_lord", "abyss_knight", "shadow_dragon"],
+        "boss": null,
+        "min_level": 18,
+        "exp_reward": 500,
+        "gold_reward": 400,
+        "items": ["miraculous_ring", "phoenix_feather", "legendary_blade"]
+      },
+      "3": {
+        "name": "Abyssal Core",
+        "description": "The heart of the abyss",
+        "monsters": ["abyss_king", "void_emperor", "shadow_god"],
+        "boss": "abyssal_lord",
+        "min_level": 20,
+        "exp_reward": 800,
+        "gold_reward": 600,
+        "items": ["miraculous_ring", "dragon_scale", "phoenix_feather"]
+      }
+    },
+    "special_events": ["void_storm", "abyssal_ritual"],
+    "environmental_hazards": ["reality_distortion", "void_corruption"]
+  }
+} 
