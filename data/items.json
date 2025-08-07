@@ -1,1 +1,302 @@
-{} 
+{
+  "basic_sword": {
+    "name": "Basic Sword",
+    "description": "A simple iron sword",
+    "type": "weapon",
+    "rarity": "common",
+    "price": 50,
+    "attack": 15,
+    "durability": 100
+  },
+  "steel_sword": {
+    "name": "Steel Sword",
+    "description": "A well-crafted steel blade",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "price": 150,
+    "attack": 25,
+    "durability": 150
+  },
+  "magic_sword": {
+    "name": "Magic Sword",
+    "description": "A sword imbued with magical energy",
+    "type": "weapon",
+    "rarity": "rare",
+    "price": 500,
+    "attack": 40,
+    "magic": 20,
+    "durability": 200
+  },
+  "legendary_blade": {
+    "name": "Legendary Blade",
+    "description": "A blade of ancient power",
+    "type": "weapon",
+    "rarity": "legendary",
+    "price": 2000,
+    "attack": 75,
+    "magic": 50,
+    "special": "critical_strike",
+    "durability": 300
+  },
+  "leather_armor": {
+    "name": "Leather Armor",
+    "description": "Basic leather protection",
+    "type": "armor",
+    "rarity": "common",
+    "price": 30,
+    "defense": 10,
+    "durability": 80
+  },
+  "chain_mail": {
+    "name": "Chain Mail",
+    "description": "Flexible metal armor",
+    "type": "armor",
+    "rarity": "uncommon",
+    "price": 120,
+    "defense": 20,
+    "durability": 120
+  },
+  "plate_armor": {
+    "name": "Plate Armor",
+    "description": "Heavy protective armor",
+    "type": "armor",
+    "rarity": "rare",
+    "price": 400,
+    "defense": 35,
+    "durability": 180
+  },
+  "dragon_scale": {
+    "name": "Dragon Scale Armor",
+    "description": "Armor crafted from dragon scales",
+    "type": "armor",
+    "rarity": "legendary",
+    "price": 1500,
+    "defense": 60,
+    "fire_resistance": 50,
+    "durability": 250
+  },
+  "health_potion": {
+    "name": "Health Potion",
+    "description": "Restores 50 HP",
+    "type": "consumable",
+    "rarity": "common",
+    "price": 25,
+    "effect": "heal",
+    "value": 50
+  },
+  "mana_potion": {
+    "name": "Mana Potion",
+    "description": "Restores 30 MP",
+    "type": "consumable",
+    "rarity": "common",
+    "price": 20,
+    "effect": "mana",
+    "value": 30
+  },
+  "greater_heal": {
+    "name": "Greater Healing Potion",
+    "description": "Restores 100 HP",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "price": 75,
+    "effect": "heal",
+    "value": 100
+  },
+  "elixir_of_life": {
+    "name": "Elixir of Life",
+    "description": "Fully restores HP and MP",
+    "type": "consumable",
+    "rarity": "rare",
+    "price": 200,
+    "effect": "full_restore"
+  },
+  "cheese": {
+    "name": "Cheese",
+    "description": "Plagg's favorite food",
+    "type": "consumable",
+    "rarity": "common",
+    "price": 5,
+    "effect": "heal",
+    "value": 10
+  },
+  "magic_dust": {
+    "name": "Magic Dust",
+    "description": "Sparkling magical particles",
+    "type": "material",
+    "rarity": "uncommon",
+    "price": 15
+  },
+  "iron_ore": {
+    "name": "Iron Ore",
+    "description": "Raw iron for crafting",
+    "type": "material",
+    "rarity": "common",
+    "price": 8
+  },
+  "gold_ore": {
+    "name": "Gold Ore",
+    "description": "Precious gold for crafting",
+    "type": "material",
+    "rarity": "rare",
+    "price": 50
+  },
+  "dragon_essence": {
+    "name": "Dragon Essence",
+    "description": "Pure magical energy",
+    "type": "material",
+    "rarity": "legendary",
+    "price": 300
+  },
+  "enchanted_cheese": {
+    "name": "Enchanted Cheese",
+    "description": "Magically enhanced cheese",
+    "type": "consumable",
+    "rarity": "rare",
+    "price": 100,
+    "effect": "heal",
+    "value": 75,
+    "bonus": "mana_boost"
+  },
+  "miraculous_ring": {
+    "name": "Miraculous Ring",
+    "description": "A ring of incredible power",
+    "type": "accessory",
+    "rarity": "legendary",
+    "price": 5000,
+    "magic": 100,
+    "special": "miraculous_power"
+  },
+  "lucky_charm": {
+    "name": "Lucky Charm",
+    "description": "Increases luck in battles",
+    "type": "accessory",
+    "rarity": "uncommon",
+    "price": 100,
+    "luck": 15
+  },
+  "fire_staff": {
+    "name": "Fire Staff",
+    "description": "A staff that channels fire magic",
+    "type": "weapon",
+    "rarity": "rare",
+    "price": 600,
+    "magic": 45,
+    "fire_damage": 30,
+    "durability": 150
+  },
+  "ice_blade": {
+    "name": "Ice Blade",
+    "description": "A sword that freezes enemies",
+    "type": "weapon",
+    "rarity": "rare",
+    "price": 550,
+    "attack": 35,
+    "ice_damage": 25,
+    "special": "freeze_chance",
+    "durability": 180
+  },
+  "thunder_hammer": {
+    "name": "Thunder Hammer",
+    "description": "A hammer that calls lightning",
+    "type": "weapon",
+    "rarity": "epic",
+    "price": 1200,
+    "attack": 60,
+    "lightning_damage": 40,
+    "special": "chain_lightning",
+    "durability": 200
+  },
+  "shadow_cloak": {
+    "name": "Shadow Cloak",
+    "description": "A cloak that hides you in shadows",
+    "type": "armor",
+    "rarity": "epic",
+    "price": 800,
+    "defense": 25,
+    "stealth": 50,
+    "special": "shadow_step",
+    "durability": 120
+  },
+  "phoenix_feather": {
+    "name": "Phoenix Feather",
+    "description": "A feather that burns with eternal flame",
+    "type": "material",
+    "rarity": "legendary",
+    "price": 1000
+  },
+  "crystal_shard": {
+    "name": "Crystal Shard",
+    "description": "A shard of pure crystal",
+    "type": "material",
+    "rarity": "uncommon",
+    "price": 25
+  },
+  "ancient_scroll": {
+    "name": "Ancient Scroll",
+    "description": "Contains forgotten knowledge",
+    "type": "material",
+    "rarity": "rare",
+    "price": 150
+  },
+  "poison_dagger": {
+    "name": "Poison Dagger",
+    "description": "A dagger coated with deadly poison",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "price": 200,
+    "attack": 20,
+    "poison_damage": 15,
+    "special": "poison_strike",
+    "durability": 100
+  },
+  "healing_staff": {
+    "name": "Healing Staff",
+    "description": "A staff that channels healing magic",
+    "type": "weapon",
+    "rarity": "rare",
+    "price": 700,
+    "magic": 40,
+    "healing_power": 50,
+    "special": "group_heal",
+    "durability": 160
+  },
+  "diamond_ring": {
+    "name": "Diamond Ring",
+    "description": "A ring set with a perfect diamond",
+    "type": "accessory",
+    "rarity": "epic",
+    "price": 800,
+    "defense": 15,
+    "magic": 25,
+    "special": "diamond_shield"
+  },
+  "speed_boots": {
+    "name": "Speed Boots",
+    "description": "Boots that enhance movement speed",
+    "type": "armor",
+    "rarity": "uncommon",
+    "price": 150,
+    "defense": 8,
+    "speed": 20,
+    "durability": 100
+  },
+  "wisdom_amulet": {
+    "name": "Wisdom Amulet",
+    "description": "An amulet that enhances magical knowledge",
+    "type": "accessory",
+    "rarity": "rare",
+    "price": 300,
+    "magic": 30,
+    "intelligence": 20
+  },
+  "strength_gauntlets": {
+    "name": "Strength Gauntlets",
+    "description": "Gauntlets that enhance physical strength",
+    "type": "armor",
+    "rarity": "rare",
+    "price": 250,
+    "defense": 12,
+    "strength": 25,
+    "durability": 140
+  }
+} 
